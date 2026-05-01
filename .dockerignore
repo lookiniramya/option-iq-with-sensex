@@ -1,0 +1,44 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Streamlit / app artifacts
+*.log
+streamlit.err.log
+streamlit.out.log
+
+# Backups & editor scratch
+*.bak
+*~
+.swp
+*.swo
+
+# Local secrets (must NEVER be in image)
+.streamlit/secrets.toml
+.env
+.env.*
+config.local.py
+
+# Dev environments
+.venv/
+venv/
+env/
+.devcontainer/
+.vscode/
+.idea/
+
+# Git metadata (Cloud Build does its own checkout)
+.git/
+.gitignore
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Documentation that isn't needed at runtime
+DEPLOY.md
+README.md

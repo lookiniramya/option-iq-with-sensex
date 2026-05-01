@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*~
+
+# Local secrets — NEVER commit these
+.streamlit/secrets.toml
+.env
+.env.*
+config.local.py
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+.devcontainer/
+
+# OS
+.DS_Store
+Thumbs.db
