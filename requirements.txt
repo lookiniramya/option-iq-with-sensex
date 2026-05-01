@@ -8,4 +8,3 @@ altair>=5.0.0
 
 # Paytm Money official SDK — handles binary tick decoding.
 # Not on PyPI; installed directly from Paytm's official GitHub repo.
-pypmclient @ git+https://github.com/paytmmoney/pyPMClient.git
